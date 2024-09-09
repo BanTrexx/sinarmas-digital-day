@@ -11,10 +11,7 @@ const WebSocket = require("ws");
 
 let keepAliveId;
 
-const wss =
-    process.env.NODE_ENV === "production"
-        ? new WebSocket.Server({ server })
-        : new WebSocket.Server({ port: 5001 });
+const wss = new WebSocket.Server({ server })
 
 server.listen(serverPort);
 console.log(`Server started on port ${serverPort} in stage ${process.env.NODE_ENV}`);

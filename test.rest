@@ -1,4 +1,32 @@
-POST https://sinarmas-digital-day.vercel.app/forward
+POST https://sinarmas-digital-day.glitch.me/vvip
 Content-Type: application/json
+Authorization: ACCESS_TOKEN
 
-{"message": "Hello WebSocket clients!"}
+{ 
+    "name":"VVIP 8",
+    "is_vvip":false,
+    "position":"Chairman of PT Sinar Mas Agro Resources & Technology Tbk"
+}
+
+###
+
+POST http://localhost:3000/non-vvip
+Content-Type: application/json
+Authorization: Basic U2luYXJtYXNEaWdpdGFsR
+
+{ 
+    "name":"Hari Tanu Sudibjo MH",
+    "is_vvip":false
+}
+
+
+###
+
+POST http://localhost:3000/non-vvip
+Content-Type: application/json
+Authorization: Basic U2luYXJtYXNEaWdpdGFsRGF5OkM0VnJIbFh0UlR6VHp0aGZjZlVaMm5vWTRRcm5RVw==
+
+{ 
+    "name":"Hari Tanu Sudibjo MH",
+    "is_vvip":false
+}

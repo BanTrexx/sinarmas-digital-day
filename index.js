@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static("public"));
 app.use(express.json()); // To parse JSON bodies
 
-const serverPort = process.env.PORT || 3000;
+const serverPort = process.env.PORT || 3001;
 const server = http.createServer(app);
 const WebSocket = require("ws");
 

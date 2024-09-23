@@ -19,10 +19,20 @@ Authorization: Basic U2luYXJtYXNEaWdpdGFsR
     "is_vvip":false
 }
 
+###
+
+POST https://sinarmas-digital-day.glitch.me/non-vvip
+Content-Type: application/json
+Authorization: Basic U2luYXJtYXNEaWdpdGFsR
+
+{ 
+    "name":"Elizabeth Jayne",
+    "is_vvip":false
+}
 
 ###
 
-POST http://localhost:3000/non-vvip
+POST https://api.imajiwa.id/non-vvip
 Content-Type: application/json
 Authorization: Basic U2luYXJtYXNEaWdpdGFsRGF5OkM0VnJIbFh0UlR6VHp0aGZjZlVaMm5vWTRRcm5RVw==
 

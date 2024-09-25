@@ -1,22 +1,11 @@
 POST https://sinarmas-digital-day.glitch.me/vvip
 Content-Type: application/json
-Authorization: ACCESS_TOKEN
+Authorization: Basic U2luYXJtYXNEaWdpdGFsRGF5OkM0VnJIbFh0UlR6VHp0aGZjZlVaMm5vWTRRcm5RVw==
 
 { 
-    "name":"VVIP 8",
-    "is_vvip":false,
+    "name":"Muhammad Arif Rofiudin 2",
+    "is_vvip":true,
     "position":"Chairman of PT Sinar Mas Agro Resources & Technology Tbk"
-}
-
-###
-
-POST http://localhost:3000/non-vvip
-Content-Type: application/json
-Authorization: Basic U2luYXJtYXNEaWdpdGFsR
-
-{ 
-    "name":"Hari Tanu Sudibjo MH",
-    "is_vvip":false
 }
 
 ###
@@ -32,11 +21,23 @@ Authorization: Basic U2luYXJtYXNEaWdpdGFsR
 
 ###
 
-POST https://api.imajiwa.id/non-vvip
+POST http://imajiwa.cloud/vvip
 Content-Type: application/json
 Authorization: Basic U2luYXJtYXNEaWdpdGFsRGF5OkM0VnJIbFh0UlR6VHp0aGZjZlVaMm5vWTRRcm5RVw==
 
 { 
-    "name":"Hari Tanu Sudibjo MH",
+    "name":"Muhammad Arif hermanto",
+    "is_vvip":true,
+    "position":"Chairman of PT Sinar Mas Agro Resources & Technology Tbk"
+}
+
+###
+
+POST http://imajiwa.cloud/non-vvip
+Content-Type: application/json
+Authorization: Basic U2luYXJtYXNEaWdpdGFsRGF5OkM0VnJIbFh0UlR6VHp0aGZjZlVaMm5vWTRRcm5RVw==
+
+{ 
+    "name":"NON VVIP 4kk",
     "is_vvip":false
 }
